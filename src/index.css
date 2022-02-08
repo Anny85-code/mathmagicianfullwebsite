@@ -51,7 +51,6 @@ button {
   font-size: 20px;
   padding: 16px;
   cursor: pointer;
-  transform: 0.4s;
 }
 
 button:hover {

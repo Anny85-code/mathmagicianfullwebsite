@@ -15,7 +15,7 @@ const Calculator = () => {
 
     setCalc(calc + value);
     if (!operator.includes(value)) {
-      setResult(eval(calc + value).toString());
+      setResult(Function(calc + value).toString());
     }
   };
 
@@ -32,7 +32,7 @@ const Calculator = () => {
   };
 
   const calculate = () => {
-    setCalc(eval(calc).toString());
+    setCalc(Function(calc).toString());
   };
 
   const deleteLast = () => {
