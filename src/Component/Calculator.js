@@ -59,7 +59,7 @@ export default class Calculator extends React.Component {
             </div>
             <div className="operators">
               <button type="submit" onClick={this.handleClick}>
-                /
+                ÷
               </button>
               <button type="submit" onClick={this.handleClick}>
                 x
