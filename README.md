@@ -10,7 +10,7 @@ Quick review of page amd code.
 
 ## General info
 
-This project is Microverse Recact Module Project,
+This project is Microverse React Module Project,
 Building a web app with calculator using React.
 
 ## Technologies

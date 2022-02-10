@@ -1,34 +1,30 @@
 import React from 'react';
+import calculate from '../logic/calculate';
 
 export default class Calculator extends React.Component {
-  render() {
-    const [calc, setCalc] = '';
-    const [result, setResult] = '';
-    const operator = ['/', '*', '+', '-', '.'];
-    const updateCalc = (value) => {
-      if (
-        (operator.includes(value) && calc === '')
-      || (operator.includes(value) && operator.includes(calc.slice(-1)))
-      ) {
-        return;
-      }
-
-      setCalc(calc + value);
-      if (!operator.includes(value)) {
-        setResult((calc + value).toString());
-      }
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
     };
+    this.handleClick = this.handleClick.bind(this);
+  }
 
+  handleClick = (e) => {
+    const data = calculate(this.state, e.target.textContent);
+    this.setState(data);
+  };
+
+  render() {
+    const { total, next, operation } = this.state;
+    const result = `${total || ''} ${operation || ''} ${next || ''}`;
     const createDigits = () => {
       const digits = [];
       for (let i = 9; i > 0; i -= 1) {
         digits.push(
-          <button
-            id="numbers"
-            type="submit"
-            onClick={() => updateCalc(i.toString())}
-            key={i}
-          >
+          <button id="numbers" type="submit" onClick={this.handleClick} key={i}>
             {i}
           </button>,
         );
@@ -36,65 +32,45 @@ export default class Calculator extends React.Component {
       return digits;
     };
 
-    const calculate = () => {
-      setCalc(calc.toString());
-    };
-
-    const deleteLast = () => {
-      if (calc === '') {
-        return;
-      }
-      const value = calc.slice(0, -1);
-      setCalc(value);
-    };
-
     return (
       <div className="App">
         <div className="calculator">
           <div className="display">
-            {result ? (
-              <span>
-                (
-                {result}
-                )
-              </span>
-            ) : ''}
-          &nbsp;
-            {calc || '0'}
+            <span>{result.trim() ? result : 0}</span>
           </div>
           <div className="operator-digits-container">
             <div className="digits">
-              <button type="submit" onClick={deleteLast}>
-                A/C
+              <button type="submit" onClick={this.handleClick}>
+                AC
               </button>
-              <button type="submit" onClick={deleteLast}>
+              <button type="submit" onClick={this.handleClick}>
                 +/-
               </button>
-              <button type="submit" onClick={deleteLast}>
+              <button type="submit" onClick={this.handleClick}>
                 %
               </button>
               {createDigits()}
-              <button id="zero" type="submit" onClick={() => updateCalc('0')}>
+              <button id="zero" type="submit" onClick={this.handleClick}>
                 0
               </button>
-              <button type="submit" onClick={() => updateCalc('.')}>
+              <button type="submit" onClick={this.handleClick}>
                 .
               </button>
             </div>
             <div className="operators">
-              <button type="submit" onClick={() => updateCalc('/')}>
+              <button type="submit" onClick={this.handleClick}>
                 /
               </button>
-              <button type="submit" onClick={() => updateCalc('*')}>
-                *
+              <button type="submit" onClick={this.handleClick}>
+                x
               </button>
-              <button type="submit" onClick={() => updateCalc('+')}>
+              <button type="submit" onClick={this.handleClick}>
                 +
               </button>
-              <button type="submit" onClick={() => updateCalc('-')}>
+              <button type="submit" onClick={this.handleClick}>
                 -
               </button>
-              <button type="submit" onClick={calculate}>
+              <button type="submit" onClick={this.handleClick}>
                 =
               </button>
             </div>
