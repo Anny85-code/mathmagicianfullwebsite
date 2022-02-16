@@ -1,15 +1,16 @@
+# MATHMAGICIAN FULL WEBSITE
 
-
-# MATHMAGICIAN
-
-
-## Live preview [here](https://anny85-code.github.io/mathmagician/dist/).
+## Live preview [here](https://anny85-code.github.io/mathmagicianfullwebsite/).
 
 Quick review of page amd code.
 
 ## Screenshots
 
-![mathmagic](https://user-images.githubusercontent.com/87186552/153082465-86d280ec-c2e3-404b-ac7a-349409bf7d2f.png)
+![math-home](https://user-images.githubusercontent.com/87186552/154286682-c3295f18-4844-4955-810b-fcb94cb10c1c.png)
+
+![math-cal](https://user-images.githubusercontent.com/87186552/154286534-6478857a-6f69-4db0-bda2-a5a566476f6c.png)
+
+![math-quote](https://user-images.githubusercontent.com/87186552/154286837-c5b337a2-6414-4add-9588-cd277847d22c.png)
 
 ## General info
 
@@ -30,8 +31,8 @@ Project is created with:
 To run this project, install it locally using:
 
 - cd Desktop
-- git clone https://github.com/Anny85-code/mathmagician.git
-- cd mathmagician
+- git clone https://github.com/Anny85-code/mathmagicianfullwebsite.git
+- cd mathmagicianfullwebsite
 - cd mycalculator
 - npm install
 - npm start
@@ -48,7 +49,7 @@ To run this project, install it locally using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Anny85-code/mathmagician/issues/36).
+Feel free to check the [issues page](https://github.com/Anny85-code/mathmagicianfullwebsite.git/issues/36).
 
 ## Show your support
 
@@ -63,4 +64,3 @@ Give a ⭐️ if you like this project!
 This project is [MIT](LICENSE) licensed.
 
 ## Contact
-
