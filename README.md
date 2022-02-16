@@ -1,5 +1,6 @@
 # MATHMAGICIAN
 
+
 ## Live preview [here](https://anny85-code.github.io/mathmagician/dist/).
 
 Quick review of page amd code.
@@ -61,4 +62,3 @@ This project is [MIT](LICENSE) licensed.
 
 ## Contact
 
-Created by [@Anny85-code](https://github.com/Anny85-code)
