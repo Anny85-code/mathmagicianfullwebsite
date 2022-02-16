@@ -5,12 +5,12 @@ const Footer = () => {
 
   return (
     <footer>
-
       ©
 
       {Foter()}
-      -Anny
+      {' '}
 
+      <a href="https://www.linkedin.com/in/aniekan-udo-665b65213/">Anny</a>
     </footer>
   );
 };
