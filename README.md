@@ -64,5 +64,3 @@ Give a ⭐️ if you like this project!
 This project is [MIT](LICENSE) licensed.
 
 ## Contact
-
-Created by [@Anny85-code](https://github.com/Anny85-code)
