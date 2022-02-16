@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/https://github.com/Anny85-code/mathmagicianfullwebsite/static/css/main.b39eac73.css",
+    "main.js": "/https://github.com/Anny85-code/mathmagicianfullwebsite/static/js/main.b52b4f5f.js",
+    "static/js/787.615263b3.chunk.js": "/https://github.com/Anny85-code/mathmagicianfullwebsite/static/js/787.615263b3.chunk.js",
+    "index.html": "/https://github.com/Anny85-code/mathmagicianfullwebsite/index.html",
+    "main.b39eac73.css.map": "/https://github.com/Anny85-code/mathmagicianfullwebsite/static/css/main.b39eac73.css.map",
+    "main.b52b4f5f.js.map": "/https://github.com/Anny85-code/mathmagicianfullwebsite/static/js/main.b52b4f5f.js.map",
+    "787.615263b3.chunk.js.map": "/https://github.com/Anny85-code/mathmagicianfullwebsite/static/js/787.615263b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b39eac73.css",
+    "static/js/main.b52b4f5f.js"
+  ]
+}
