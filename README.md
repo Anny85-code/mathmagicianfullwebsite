@@ -1,6 +1,10 @@
 # MATHMAGICIAN FULL WEBSITE
 
-## Live preview [here](https://anny85-code.github.io/mathmagicianfullwebsite/).
+## Live preview from github[here](https://anny85-code.github.io/mathmagicianfullwebsite/).
+
+## Live preview from heroku[here](https://mathmagicianwebsite.herokuapp.com/).
+
+## Live preview from netlify[here](https://mathmagicianfullwebsite.netlify.app/).
 
 Quick review of page amd code.
 
