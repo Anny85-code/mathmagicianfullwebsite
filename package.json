@@ -2,7 +2,7 @@
   "name": "mycalculator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Anny85-code.github.io/https://github.com/Anny85-code/mathmagicianfullwebsite",
+  "homepage": "https://github.com/Anny85-code/mathmagicianfullwebsite",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
