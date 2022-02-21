@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 :root {
@@ -48,6 +46,10 @@ body {
   cursor: pointer;
 }
 
+.nav-ul li {
+  margin: 2px;
+}
+
 .nav-ul li:link {
   color: var(--primary);
 }
@@ -62,10 +64,6 @@ body {
 
 .nav-ul li:active {
   color: var(--light);
-}
-
-.nav-ul li {
-  margin: 2px;
 }
 
 a:-webkit-any-link {
