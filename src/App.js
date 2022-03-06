@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import { Routes, Route } from 'react-router-dom';
 import Calculator from './Pages/Calculator';
 import Quote from './Pages/Quote';
@@ -32,15 +31,4 @@ const App = () => {
     </div>
   );
 };
-=======
-import Calculator from './Component/Calculator';
-import './index.css';
-
-const App = () => (
-  <div className="App">
-    <Calculator />
-  </div>
-);
-
->>>>>>> development
 export default App;
