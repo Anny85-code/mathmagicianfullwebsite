@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <footer>
       ©
-
       {Foter()}
-      {' '}
+      <a href="https://www.linkedin.com/in/aniekan-udo-665b65213/">
 
-      <a href="https://www.linkedin.com/in/aniekan-udo-665b65213/">Anny</a>
+        &nbsp;Anny
+      </a>
     </footer>
   );
 };
