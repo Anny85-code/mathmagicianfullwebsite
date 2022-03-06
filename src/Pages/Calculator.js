@@ -29,7 +29,7 @@ const Calculator = () => {
 
   return (
     <div className="cal-app">
-      <h2>Let&apos;s do some math!</h2>
+      <h6>Let&apos;s do some math!</h6>
       <div className="calculator">
         <div className="display">
           <span>{result.trim() ? result : 0}</span>
