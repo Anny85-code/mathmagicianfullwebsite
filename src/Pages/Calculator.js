@@ -28,45 +28,45 @@ const Calculator = () => {
   };
 
   return (
-    <div className="cal-app">
-      <h2>Lets do some math!</h2>
-      <div className="calculator">
-        <div className="display">
+    <div className='cal-app'>
+      <h2>Let&apos;s do some math!</h2>
+      <div className='calculator'>
+        <div className='display'>
           <span>{result.trim() ? result : 0}</span>
         </div>
-        <div className="operator-digits-container">
-          <div className="digits">
-            <button type="submit" onClick={handleClick}>
+        <div className='operator-digits-container'>
+          <div className='digits'>
+            <button type='submit' onClick={handleClick}>
               AC
             </button>
-            <button type="submit" onClick={handleClick}>
+            <button type='submit' onClick={handleClick}>
               +/-
             </button>
-            <button type="submit" onClick={handleClick}>
+            <button type='submit' onClick={handleClick}>
               %
             </button>
             {createDigits()}
-            <button id="zero" type="submit" onClick={handleClick}>
+            <button id='zero' type='submit' onClick={handleClick}>
               0
             </button>
-            <button type="submit" onClick={handleClick}>
+            <button type='submit' onClick={handleClick}>
               .
             </button>
           </div>
-          <div className="operators">
-            <button type="submit" onClick={handleClick}>
+          <div className='operators'>
+            <button type='submit' onClick={handleClick}>
               ÷
             </button>
-            <button type="submit" onClick={handleClick}>
+            <button type='submit' onClick={handleClick}>
               x
             </button>
-            <button type="submit" onClick={handleClick}>
+            <button type='submit' onClick={handleClick}>
               +
             </button>
-            <button type="submit" onClick={handleClick}>
+            <button type='submit' onClick={handleClick}>
               -
             </button>
-            <button type="submit" onClick={handleClick}>
+            <button type='submit' onClick={handleClick}>
               =
             </button>
           </div>
