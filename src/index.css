@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
+=======
+>>>>>>> development
 :root {
   --primary: #eb7d34;
   --secondary: #ada7a6;
@@ -13,11 +16,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+<<<<<<< HEAD
   margin: 0;
+=======
+>>>>>>> development
 }
 
 body {
   background-color: var(--light);
+<<<<<<< HEAD
   position: relative;
 }
 
@@ -87,6 +94,12 @@ a:-webkit-any-link {
   display: flex;
   justify-content: space-between;
   padding: 30px;
+=======
+}
+
+.App {
+  padding: 50px;
+>>>>>>> development
 }
 
 .calculator {
@@ -95,6 +108,7 @@ a:-webkit-any-link {
   background-color: #fff;
   overflow: hidden;
   box-shadow: 0 2px 64px rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
   margin: 90px 10px;
 }
 
@@ -102,6 +116,9 @@ a:-webkit-any-link {
   width: 600px;
   text-align: center;
   margin: 200px auto 100px auto;
+=======
+  margin: auto auto;
+>>>>>>> development
 }
 
 .display {
@@ -166,6 +183,7 @@ button:hover {
 .operator-digits-container {
   display: flex;
   flex-direction: row;
+<<<<<<< HEAD
 }
 
 footer {
@@ -180,4 +198,6 @@ footer {
   padding: 10px 0 10px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+=======
+>>>>>>> development
 }
